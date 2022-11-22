@@ -1,0 +1,123 @@
+
+.imagem-inicio img {
+    width: 24rem;
+}
+
+.imagem-inicio {
+    margin-bottom: 2rem;
+}
+
+.historia {
+    display: flex;
+}
+
+.esquerda-historia {
+    background-color: var(--azul-claro);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.esquerda-historia img {
+    width: 21rem;
+    height: 15rem;
+    padding:0.8rem;
+    margin-inline: 1rem;
+    float: left;
+    border-radius: 1.8rem;
+}
+
+.direita-historia {
+    background-color: var(--azul-escuro);
+    margin-bottom: 3rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.direita-historia h1 {
+    background-color: var(--azul-escuro);
+    justify-content: center;
+}
+
+.esquerda-politica{
+    background-color: var(--azul-claro);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.direita-politica{
+    background-color: var(--azul-escuro);
+    margin-bottom: 3rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.left-cultura{
+    background-color: var(--azul-claro);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.right-cultura{
+    background-color: var(--azul-escuro);
+    margin-bottom: 3rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.left-ig{
+    background-color: var(--azul-claro);
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2rem;
+}
+
+.right-ig{
+    background-color: var(--azul-escuro);
+    margin-bottom: 3rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.left-pt{
+    background-color: var(--azul-claro);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.right-pt{
+    background-color: var(--azul-escuro);
+    margin-bottom: 3rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.esquerda-politica img{
+    width: 25rem;
+    height: 15rem;
+    padding: 1.2rem;
+    float: left;
+    border-radius: 2rem;
+}
+
+.left-cultura img{
+    width: 25rem;
+    height: 15rem;
+    padding: 1.2rem;
+    float: left;
+    border-radius: 2rem;
+}
+
+.left-ig img{
+    width: 25rem;
+    height: 15rem;
+    padding: 1.2rem;
+    float: left;
+    border-radius: 2rem;
+}
+
+.left-pt img{
+    width: 25rem;
+    height: 15rem;
+    padding: 1.2rem;
+    float: left;
+    border-radius: 2rem;
+}
