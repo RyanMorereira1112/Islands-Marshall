@@ -1,18 +1,20 @@
-@media (min-width: 650px) {
+@media (min-width: 900px) {
     
     header {
-        padding: 50%;
+        width: 100%;
+        height: 6rem;
         padding-bottom: 1rem;
         display: flex;
+        font-size: 2.3rem;
     }
 
     .header-esquerdo {
         padding-left: 10rem;
+
     }
 
     .logo img {
         display: flex;
-        text-align: center  ;
     }
     
 
