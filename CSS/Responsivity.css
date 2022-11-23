@@ -1,32 +1,18 @@
 @media (min-width: 650px) {
     
-    header{
-        display: flex;
-        justify-content: space-around;
+    header {
         padding: 50%;
         padding-bottom: 1rem;
-        font-size: 2.5rem;
+        display: flex;
+    }
+
+    .header-esquerdo {
+        padding-left: 10rem;
     }
 
     .logo img {
-        width: 15rem;
-        height: 6rem;
-        margin-top: 4rem;
-       
-    }
-
-    .header-esquerda {
         display: flex;
-        justify-content: center;
-        padding-top: 1rem;
-        padding-left: 1rem;
-    }
-    
-    .header-direita {
-        display: flex;
-        justify-content: first baseline;
-        padding-top: 1rem;
-        padding-left: 1rem;
+        text-align: center  ;
     }
     
 
