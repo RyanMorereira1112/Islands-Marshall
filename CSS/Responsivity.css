@@ -1,0 +1,125 @@
+@media (min-width: 650px) {
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        padding: 50%;
+        padding-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .logo img {
+        width: 15rem;
+        height: 6rem;
+        margin-top: 4rem;
+       
+    }
+
+    .header-esquerda {
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .header-direita {
+        display: flex;
+        justify-content: first baseline;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+    
+
+    body {
+        max-width: 90rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        color: var(--laranja);
+        padding: 1rem;
+        text-align: center;
+        background-color: var(--azul-claro);
+        border-radius: 2rem;
+    }
+
+    .inicio {
+        margin-top: 2rem;
+    }
+
+    .história {
+        display: flex;
+        align-items: center;
+    }
+
+    .direita-historia {
+        line-height: 1.5rem;
+        border-radius: 2rem;
+    }
+
+    .esquerda-historia {
+        margin-right: 0.8rem;
+        margin-bottom: 3rem;
+    }
+
+    .direita-historia p {
+        margin-bottom: 0.1rem;
+        align-items: center;
+    }
+
+    .politica {
+        display: flex;
+        
+    }
+
+    .esquerda-politica {
+        margin-right: 0.8rem;
+        
+    }
+    
+    .direita-politica {
+        border-radius: 2rem;
+    }
+
+    .cultura {
+        display: flex;
+    }
+
+    .left-cultura {
+        margin-right: 0.8rem;
+        margin-bottom: 3rem;
+    }
+
+    .right-cultura {
+        border-radius: 2rem;
+    }
+
+    .informacoes-gerais {
+        display: flex;
+    }
+
+    .left-ig {
+        margin-right: 0.8rem;
+        margin-bottom: 3rem;
+    }
+
+    .right-ig {
+        border-radius: 2rem;
+    }
+    
+    .Pontos-turisticos {
+        display: flex;
+    }
+    
+    .right-pt {
+        border-radius: 2rem;
+    }
+
+    .right-pt p {
+        line-height: 1.5rem;
+    } 
+
+    .left-pt {
+        margin-right: 0.8rem;
+    }
+}

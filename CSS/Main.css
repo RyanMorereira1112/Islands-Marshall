@@ -1,6 +1,5 @@
-
 .imagem-inicio img {
-    width: 24rem;
+    width: 100%;
 }
 
 .imagem-inicio {
@@ -11,19 +10,12 @@
     display: flex;
 }
 
-.esquerda-historia {
-    background-color: var(--azul-claro);
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-}
-
 .esquerda-historia img {
-    width: 21rem;
+    width: 21.5rem;
     height: 15rem;
-    padding:0.8rem;
-    margin-inline: 1rem;
+    padding: 1.2rem;
     float: left;
-    border-radius: 1.8rem;
+    border-radius: 2rem;
 }
 
 .direita-historia {
@@ -33,28 +25,11 @@
     border-bottom-right-radius: 2rem;
 }
 
-.direita-historia h1 {
-    background-color: var(--azul-escuro);
-    justify-content: center;
-}
-
-.esquerda-politica{
-    background-color: var(--azul-claro);
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-}
-
 .direita-politica{
     background-color: var(--azul-escuro);
     margin-bottom: 3rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-}
-
-.left-cultura{
-    background-color: var(--azul-claro);
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
 }
 
 .right-cultura{
@@ -64,23 +39,11 @@
     border-bottom-right-radius: 2rem;
 }
 
-.left-ig{
-    background-color: var(--azul-claro);
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2rem;
-}
-
 .right-ig{
     background-color: var(--azul-escuro);
     margin-bottom: 3rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-}
-
-.left-pt{
-    background-color: var(--azul-claro);
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
 }
 
 .right-pt{
@@ -91,7 +54,7 @@
 }
 
 .esquerda-politica img{
-    width: 25rem;
+    width: 21.5rem;
     height: 15rem;
     padding: 1.2rem;
     float: left;
@@ -99,7 +62,7 @@
 }
 
 .left-cultura img{
-    width: 25rem;
+    width: 21.5rem;
     height: 15rem;
     padding: 1.2rem;
     float: left;
@@ -107,7 +70,7 @@
 }
 
 .left-ig img{
-    width: 25rem;
+    width: 21.5rem;
     height: 15rem;
     padding: 1.2rem;
     float: left;
@@ -115,7 +78,7 @@
 }
 
 .left-pt img{
-    width: 25rem;
+    width: 21.5rem;
     height: 15rem;
     padding: 1.2rem;
     float: left;
