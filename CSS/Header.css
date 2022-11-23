@@ -2,7 +2,7 @@ header {
     background-color: var(--header);
     text-align: center;
     padding-top: 0.25rem;
-    display: space-between;
+    display: flex;
     color: black;
     width: 100%;
 }
@@ -16,14 +16,11 @@ header {
 .logo img{
     padding-top: 0.1rem;
     padding-bottom: 0.2rem;
-    width: 4rem;
+    width: 3rem;
+    margin-inline: 1rem;
 }
 
-
-
-.header-direita img {
-    border-radius: 1.25rem;
-    padding: 0.5rem;
-    height: 1rem;
-    background-color: black;
+span {
+    font-weight: bold;
+    margin-inline: 0.2rem;
 }
